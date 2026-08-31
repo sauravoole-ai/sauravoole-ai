@@ -12,7 +12,7 @@ My current focus is **Applied AI, AI applications, backend/API development, full
 
 ---
 
-## Selected Work
+## Flagship Work
 
 ### [ACComplish](https://github.com/sauravoole-ai/ACComplish) — AI Study-Execution Copilot
 
@@ -29,6 +29,23 @@ A deployed AI study-execution product that converts topic readiness, deadlines, 
 - Backend automated test suite and frontend type/build verification
 
 [Live Product](https://accomplish-study.vercel.app/) · [Demo](https://youtu.be/c-THiM6yBLc)
+
+---
+
+### [Client Intelligence OS](https://github.com/sauravoole-ai/client-intelligence-os) — **In Progress**
+
+An evidence-backed client-conversation analysis system being developed to turn conversations into structured findings, risks, recommended actions, missing information, and exact source references for **human review before operational use**.
+
+**Implemented foundations**
+- FastAPI backend with deterministic analysis baseline
+- Provider-isolated LLM architecture with deterministic fallback
+- Evidence verification and exact source references
+- React + TypeScript review workspace
+- Typed frontend/backend integration
+- Authentication, persistence, migrations, and automated testing foundations
+- Production-perimeter and database-operating requirements documented for future deployment
+
+**Status:** actively under development and **not production-ready**. Features without completed backend support remain clearly separated from implemented analysis capabilities.
 
 ---
 
@@ -67,38 +84,39 @@ Current retrieval is keyword/phrase-ranked RAG-style retrieval; vector-database 
 
 ---
 
-## Currently Building
+### [AI Health Advisory Assistant](https://github.com/sauravoole-ai/ai-health-advisory-bot) — AIoT Health Advisory Prototype
 
-### [Client Intelligence OS](https://github.com/sauravoole-ai/client-intelligence-os) — In Progress
+A Flask-based vitals, chat, and voice application combining deterministic health-risk classification with LLM-generated advisory explanations and a demonstrated ESP32-based AIoT prototype flow.
 
-An evidence-backed client-conversation analysis system being developed to turn conversations into structured findings, risks, recommended actions, missing information, and exact source references for **human review before operational use**.
-
-**Implemented foundations**
-- FastAPI backend with deterministic analysis baseline
-- Provider-isolated LLM architecture with deterministic fallback
-- Evidence verification and exact source references
-- React + TypeScript review workspace
-- Typed frontend/backend integration
-- Authentication, persistence, migrations, and automated testing foundations
-- Production-perimeter and database-operating requirements documented for future deployment
-
-**Status:** actively under development and **not production-ready**. Features without completed backend support remain clearly separated from implemented analysis capabilities.
-
----
-
-## Additional Applied AI / AIoT Work
-
-### [AI Health Advisory Assistant](https://github.com/sauravoole-ai/ai-health-advisory-bot)
-
-Flask-based vitals, chat, and voice application with an AIoT prototype flow using ESP32 sensor readings, deterministic risk classification, and LLM-generated advisory output.
+**Engineering highlights**
+- Python + Flask backend
+- ESP32 / sensor → backend → safety engine → AI advisory flow
+- Deterministic risk classification before AI explanation
+- AI chatbot and browser-based voice interaction
+- Live sensor API integration
+- Hardware-dependent sensor stability documented explicitly
 
 [Live Prototype](https://ai-health-advisory-bot.onrender.com/)
 
+---
+
+## Additional Work
+
 ### [AI Poetry Chatbot](https://github.com/sauravoole-ai/AI_Poetry_Chatbot)
 
-Deployed Flask/LLM application for mood-conditioned poetry generation, session-state interaction, and ReportLab PDF export.
+Deployed Flask + LLM application for mood-conditioned poetry generation, interactive session flow, responsive UI, and ReportLab PDF export.
 
 [Live Product](https://ai-poetry-chatbot.onrender.com/)
+
+### [LSTM vs GRU for Time-Series Forecasting](https://github.com/sauravoole-ai/LSTM-vs-GRU-Assignment)
+
+Academic assignment: a reproducible deep-learning experiment comparing LSTM and GRU models for daily temperature forecasting using TensorFlow/Keras, modular Python code, automated tests, GitHub Actions CI, and documented experiment results.
+
+### [InAmigos Foundation — NGO Awareness Webpage](https://github.com/sauravoole-ai/inamigos-task1-awareness-webpage)
+
+Web Development Internship task demonstrating responsive HTML/CSS implementation for an NGO awareness webpage.
+
+[Live Page](https://sauravoole-ai.github.io/inamigos-task1-awareness-webpage/)
 
 ---
 
