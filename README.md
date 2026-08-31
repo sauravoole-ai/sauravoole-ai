@@ -49,7 +49,7 @@ An evidence-backed client-conversation analysis system being developed to turn c
 
 ---
 
-### [AI Portfolio Studio](https://github.com/sauravoole-ai/ai-portfolio-studio) — Full-Stack Portfolio & Publishing Platform
+### [Full-Stack Portfolio & Publishing Platform](https://github.com/sauravoole-ai/ai-portfolio-studio)
 
 A deployed full-stack platform for publishing project case studies and technical writing, handling professional enquiries, and privately managing content and messages.
 
@@ -100,6 +100,14 @@ A Flask-based vitals, chat, and voice application combining deterministic health
 
 ---
 
+### [LSTM vs GRU for Time-Series Forecasting](https://github.com/sauravoole-ai/lstm-gru-time-series-forecasting) — Deep Learning / Time-Series
+
+A reproducible TensorFlow/Keras experiment comparing LSTM and GRU models for daily temperature forecasting, with modular Python code, automated testing, GitHub Actions CI, and documented experiment results.
+
+Originally developed from academic coursework and subsequently restructured as a reproducible machine-learning project.
+
+---
+
 ## Additional Work
 
 ### [AI Poetry Chatbot](https://github.com/sauravoole-ai/AI_Poetry_Chatbot)
@@ -107,10 +115,6 @@ A Flask-based vitals, chat, and voice application combining deterministic health
 Deployed Flask + LLM application for mood-conditioned poetry generation, interactive session flow, responsive UI, and ReportLab PDF export.
 
 [Live Product](https://ai-poetry-chatbot.onrender.com/)
-
-### [LSTM vs GRU for Time-Series Forecasting](https://github.com/sauravoole-ai/LSTM-vs-GRU-Assignment)
-
-Academic assignment: a reproducible deep-learning experiment comparing LSTM and GRU models for daily temperature forecasting using TensorFlow/Keras, modular Python code, automated tests, GitHub Actions CI, and documented experiment results.
 
 ### [InAmigos Foundation — NGO Awareness Webpage](https://github.com/sauravoole-ai/inamigos-task1-awareness-webpage)
 
