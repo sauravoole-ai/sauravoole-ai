@@ -2,7 +2,9 @@
 
 **AI Product Engineer | Applied AI & Backend Engineering**
 
-I build AI-backed products where model output is only one part of the system: the rest is **structured workflows, backend APIs, validation, persistence, human control, testing, and deployment**.
+I build AI-backed products where model output is only one layer of the system: the rest is **structured workflows, backend APIs, validation, persistence, human control, testing, and deployment**.
+
+My current flagship build is **Client Intelligence OS** — an evidence-grounded Applied AI system focused on longitudinal client intelligence, accountable follow-up, and human-governed trust.
 
 Currently an **AI Applications Development Intern at GreyBox Technologies** (Remote, Sep–Dec 2026) and a B.Tech student in **Electronics & Communication Engineering at Tezpur University**, graduating in 2027.
 
@@ -12,17 +14,19 @@ Currently an **AI Applications Development Intern at GreyBox Technologies** (Rem
 
 ## Selected Engineering Work
 
-### [Client Intelligence OS](https://github.com/sauravoole-ai/client-intelligence-os) — Applied AI + Backend Systems
-**Active development · not production-ready**
+### [Client Intelligence OS](https://github.com/sauravoole-ai/client-intelligence-os) — Evidence-Grounded Applied AI + Backend Systems
+**Flagship engineering project · Active development · not publicly deployed**
 
-Evidence-backed client intelligence system that converts conversations into structured findings, risks, actions, missing information, and source-linked evidence for **human review before operational use**.
+Full-stack, multi-tenant client-intelligence system for repeated client/coaching conversations. It turns conversations into **source-linked findings, risks, human-reviewed follow-up, and longitudinal client signals** while keeping model output advisory rather than authoritative.
 
-- FastAPI + PostgreSQL + SQLAlchemy/Alembic backend
-- React + TypeScript review workspace
-- Workspace-scoped persistence and authenticated workflows
-- Human-controlled follow-up and longitudinal intelligence
-- Evidence verification and exact source references
-- Controlled inference admission, deterministic fallback, and security-focused regression testing
+- FastAPI + PostgreSQL + SQLAlchemy/Alembic backend with a React + TypeScript workspace
+- Human-controlled Action Item workflow with assignments, due dates, completion outcomes, queues, and optimistic concurrency
+- Longitudinal signal/evidence/revision model with `draft`, `trusted`, `rejected`, and `needs_revalidation` states plus **What Changed?** trajectory surfaces
+- Evidence provenance, deterministic factual processing, structured semantic inference, and server-side provider validation
+- Workspace-scoped authorization, CSRF/BOLA-oriented access patterns, isolated inference admission, and security-focused regression coverage
+- Reviewed design specs, implementation plans, and production/security operating notes kept in-repo for inspectable engineering
+
+**Design principle:** AI proposes; validated application state and explicit human review remain authoritative.
 
 ---
 
