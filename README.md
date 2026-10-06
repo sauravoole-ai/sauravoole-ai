@@ -8,7 +8,7 @@ My current flagship build is **Client Intelligence OS** — an evidence-grounded
 
 Currently an **AI Applications Development Intern at GreyBox Technologies** (Remote, Sep–Dec 2026) and a B.Tech student in **Electronics & Communication Engineering at Tezpur University**, graduating in 2027.
 
-[Portfolio](https://studio.sauravkrjha.workers.dev/) · [LinkedIn](https://www.linkedin.com/in/saurav-kumarjha) · [All Repositories](https://github.com/sauravoole-ai?tab=repositories)
+[Portfolio](https://sauravkrjha.vercel.app) · [LinkedIn](https://www.linkedin.com/in/saurav-kumarjha) · [All Repositories](https://github.com/sauravoole-ai?tab=repositories)
 
 ---
 
@@ -74,7 +74,7 @@ Full-stack portfolio platform for project case studies, technical writing, profe
 - Private administration Studio
 - Production deployment with SEO/social metadata support
 
-[Live Platform](https://studio.sauravkrjha.workers.dev/)
+[Live Platform](https://sauravkrjha.vercel.app)
 
 ---
 
